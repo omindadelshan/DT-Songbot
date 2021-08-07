@@ -16,7 +16,7 @@ pm_start_text = """
 """
 
 help_text = """
-**Welcome to help room**. **My commands👇😇 a bot by ominda**
+**Welcome to help room**.             **My commands👇😇 a bot by ominda**
 - /song <song name>: download songs via Youtube
 - /saavn <song name>: download songs via JioSaavn
 - /deezer <song name>: download songs via Deezer
@@ -38,7 +38,9 @@ async def start(client, message):
                     ),
                     InlineKeyboardButton(
                         text="🔥Developer🔥", url="https://t.me/omindas"
-                    )
+                    ),
+                    InlineKeyboardButton(
+                        text=" 👨‍💻Source code👨‍💻 ", url="https://github.com/omindadelshan"
                 ]
             ]
         )
