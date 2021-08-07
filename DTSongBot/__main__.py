@@ -9,19 +9,19 @@ from DTSongBot import DTbot as app
 from DTSongBot import LOGGER
 
 pm_start_text = """
-🌟Heya [{}](tg://user?id={}), I'm 🎧 Song Download bot  🎵
-Do /help for know my commands
-A bot by @Damantha_Jasinghe
-Updates channel @sdprojectupdates
+🌟**Heya** [{}](tg://user?id={}), 🌀**I'm** 🎧 **Song Download bot In Telegram You can download songs into me**👨‍💻  🎵
+🥶🥶 Send A /help command in see my more commands and Help🤗
+🤖A bot by @omindas 🤖 ⚡ Powerd by @sdprojectupdates 💥💥
+ 👨‍💻👨‍💻⚡Updates channel @sdprojectupdates 👨‍💻👨‍💻⚡
 """
 
 help_text = """
-My commands👇😇 a bot by ominda
+**Welcome to help room**. **My commands👇😇 a bot by ominda**
 - /song <song name>: download songs via Youtube
 - /saavn <song name>: download songs via JioSaavn
 - /deezer <song name>: download songs via Deezer
-- Send youtube url to my pm for download it on audio format
-A bot by @omindas
+- 👨‍💻🌀Send youtube url to my pm for download it on audio format🤖👨‍💻
+👨‍💻A bot by @omindas👨‍💻
 """
 
 @app.on_message(filters.command("start"))
