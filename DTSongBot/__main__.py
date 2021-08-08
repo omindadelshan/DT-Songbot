@@ -13,15 +13,17 @@ pm_start_text = """
 🥶🥶 Send A /help command in see my more commands and Help🤗
 🤖A bot by @omindas 🤖 ⚡ Powerd by @sdprojectupdates 💥💥
  👨‍💻👨‍💻⚡Updates channel @sdprojectupdates 👨‍💻👨‍💻⚡
+ ✳️✳️ My Source Code Is Comming Soon🤗😋✳️✳️
 """
 
 help_text = """
-**Welcome to help room**.             **My commands👇😇 a bot by ominda**
+**Welcome to help room****My commands👇😇 a bot by ominda**
 - /song <song name>: download songs via Youtube
 - /saavn <song name>: download songs via JioSaavn
 - /deezer <song name>: download songs via Deezer
 - 👨‍💻🌀Send youtube url to my pm for download it on audio format🤖👨‍💻
-👨‍💻A bot by @omindas👨‍💻
+👨‍💻A bot by @omindas👨‍💻👨‍💻.........🤗 My About👉👉 👨‍💻My Father is ominda Dilshan🤡.. 👨‍💻 i Am A Running Languege is a python3 🤓 My More Informations Are Privetly✳️👨‍💻..
+     😋 I Am Powerfull Song Bot 😋 ~~ @Omindas ~~ 🤓🤓
 """
 
 @app.on_message(filters.command("start"))
@@ -34,13 +36,13 @@ async def start(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        text="💥Updates channel💥", url="https://t.me/sdprojectupdates"
+                        text="🗣️Updates channel🗣️", url="https://t.me/sdprojectupdates"
                     ),
                     InlineKeyboardButton(
                         text="🔥Developer🔥", url="https://t.me/omindas"
                     ),
                     InlineKeyboardButton(
-                        text=" 👨‍💻Source code👨‍💻 ", url="https://github.com/omindadelshan"
+                        text="🤖Help🤖 ", url="https://github.com/omindadelshan"
                 ]
             ]
         )
