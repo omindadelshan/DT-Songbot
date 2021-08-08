@@ -40,9 +40,7 @@ async def start(client, message):
                     ),
                     InlineKeyboardButton(
                         text="🔥Developer🔥", url="https://t.me/omindas"
-                    ),
-                    InlineKeyboardButton(
-                        text="🤖Help🤖 ", url="callback_data="help"
+                    )
                 ]
             ]
         )
