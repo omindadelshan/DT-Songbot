@@ -42,7 +42,7 @@ async def start(client, message):
                         text="🔥Developer🔥", url="https://t.me/omindas"
                     ),
                     InlineKeyboardButton(
-                        text="🤖Help🤖 ", url="https://github.com/omindadelshan"
+                        text="🤖Help🤖 ", url="callback_data="help"
                 ]
             ]
         )
