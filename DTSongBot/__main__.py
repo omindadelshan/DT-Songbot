@@ -9,21 +9,20 @@ from DTSongBot import DTbot as app
 from DTSongBot import LOGGER
 
 pm_start_text = """
-🌟**Heya** [{}](tg://user?id={}), 🌀**I'm** 🎧 **Song Download bot In Telegram You can download songs into me**👨‍💻  🎵
-🥶🥶 Send A /help command in see my more commands and Help🤗
+🌟**Heya** [{}](tg://user?id={}), **I'm** 🎧 **Song Download bot In Telegram You can download songs into me**👨‍💻  🎵
+ Send A /help command in see my more commands and Help
 🤖A bot by @omindas 🤖 ⚡ Powerd by @sdprojectupdates 💥💥
- 👨‍💻👨‍💻⚡Updates channel @sdprojectupdates 👨‍💻👨‍💻⚡
- ✳️✳️ My Source Code Is Comming Soon🤗😋✳️✳️
+Updates channel @sdprojectupdates 
+  My Source Code Is Comming Soon❤️❤️
 """
 
 help_text = """
-**Welcome to help room****My commands👇😇 a bot by ominda**
+**Welcome to help room****My commands a bot by @omindas**
 - /song <song name>: download songs via Youtube
 - /saavn <song name>: download songs via JioSaavn
 - /deezer <song name>: download songs via Deezer
-- 👨‍💻🌀Send youtube url to my pm for download it on audio format🤖👨‍💻
-👨‍💻A bot by @omindas👨‍💻👨‍💻.........🤗 My About👉👉 👨‍💻My Father is ominda Dilshan🤡.. 👨‍💻 i Am A Running Languege is a python3 🤓 My More Informations Are Privetly✳️👨‍💻..
-     😋 I Am Powerfull Song Bot 😋 ~~ @Omindas ~~ 🤓🤓
+-💎Send youtube url to my pm for download it on audio format
+👨‍💻A bot by @omindas👨‍💻.........🤗
 """
 
 @app.on_message(filters.command("start"))
@@ -36,10 +35,10 @@ async def start(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        text="🗣️Updates channel🗣️", url="https://t.me/sdprojectupdates"
+                        text="☀️Add Me Group", url="https://t.me/@SD_Song_bot?startgroup=true"
                     ),
                     InlineKeyboardButton(
-                        text="🔥Developer🔥", url="https://t.me/omindas"
+                        text="🎈 Dev 🎈", url="https://t.me/omindas"
                     )
                 ]
             ]
