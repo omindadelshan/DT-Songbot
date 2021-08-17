@@ -11,7 +11,7 @@ from DTSongBot import LOGGER
 pm_start_text = """
 🌟**Heya** [{}](tg://user?id={}), **I'm** 🎧 **Song Download bot In Telegram You can download songs into me**👨‍💻  🎵
  Send A /help command in see my more commands and Help
-🤖A bot by @omindas 🤖 ⚡ Powerd by @sdprojectupdates 💥💥
+🤖A bot by @omindas 🤖 ⚡ Powerd by @sdprojectupdates...
 Updates channel @sdprojectupdates 
   My Source Code Is Comming Soon❤️❤️
 """
@@ -35,10 +35,10 @@ async def start(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        text="☀️Add Me Group", url="https://t.me/@SD_Song_bot?startgroup=true"
+                        text="☀️Add Me Group", url="https://t.me/SD_Song_bot?startgroup=true"
                     ),
                     InlineKeyboardButton(
-                        text="🎈 Dev 🎈", url="https://t.me/omindas"
+                        text="🎈 Develper 🎈", url="https://t.me/omindas"
                     )
                 ]
             ]
